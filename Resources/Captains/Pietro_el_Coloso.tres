@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CptnData" format=3 uid="uid://bxd17vntuvgea"]
+
+[ext_resource type="Texture2D" uid="uid://cpr44ommd3wm7" path="res://Assets/Sprites/captains/Pietro.tres" id="1_jvrkf"]
+[ext_resource type="Script" uid="uid://bns5r47vjas4n" path="res://Scripts/Data/CptnData.gd" id="1_urt6h"]
+
+[resource]
+script = ExtResource("1_urt6h")
+esencia = 1
+poder_nombre = "Resiliencia"
+full_art = ExtResource("1_jvrkf")
+poder_descripcion = "+3 de Armadura al inicio del turno"
+metadata/_custom_type_script = "uid://bns5r47vjas4n"

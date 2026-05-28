@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardDAta" format=3 uid="uid://b8q26qipmi8c1"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_qbkvn"]
+
+[resource]
+script = ExtResource("1_qbkvn")
+nombre = "Golpe De Abordaje"
+descripcion = "20 de dano"
+coste_energia = 2
+valor = 20
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

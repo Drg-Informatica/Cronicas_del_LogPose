@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CrewMemberData" format=3 uid="uid://clwi56ja123wg"]
+
+[ext_resource type="Script" uid="uid://cs0bvfr4vepyc" path="res://Scripts/Data/CrewMember.gd" id="1_mkn3h"]
+
+[resource]
+script = ExtResource("1_mkn3h")
+nombre = "Reck el Quemado"
+poder_descripcion = "Hace 3 de Danio a todos + roba una carta"
+cartas_regalo = Array[String](["\"res://resources/cards/furia/tajo_doble.tres\"", "\"res://resources/cards/furia/vendaval.tres\""])
+poder_ciclico_tipo = 5
+poder_ciclico_valor = 3
+poder_ciclico_cada_n_turnos = 2
+poder_ciclico_nombre = "\"Doble Carga\" "
+metadata/_custom_type_script = "uid://cs0bvfr4vepyc"

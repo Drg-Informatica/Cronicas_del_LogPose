@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://qw1knaea5cl"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_qlvff"]
+
+[resource]
+script = ExtResource("1_qlvff")
+nombre = "Postura de Roca"
+descripcion = "+7 Armadura"
+esencia = 1
+tipo_efecto = 1
+valor = 7
+tipo_carta = 1
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

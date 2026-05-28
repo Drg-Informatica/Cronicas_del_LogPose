@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://b0282hyb018i3"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_r13uu"]
+
+[resource]
+script = ExtResource("1_r13uu")
+nombre = "Maelstrom"
+descripcion = "8x8 dano"
+coste_energia = 3
+valor = 8
+ostias = 8
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

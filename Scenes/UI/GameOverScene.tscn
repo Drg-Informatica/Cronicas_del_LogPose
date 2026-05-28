@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://bheb6jabuhr75"]
+
+[ext_resource type="Script" uid="uid://umalb1qew31r" path="res://Scripts/UI/game_over_scene.gd" id="1_k5llk"]
+
+[node name="GameOverScene" type="Node2D" unique_id=1837285079]
+script = ExtResource("1_k5llk")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=797477902]
+
+[node name="Panel" type="PanelContainer" parent="CanvasLayer" unique_id=1940739739]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/Panel" unique_id=109946337]
+layout_mode = 2
+
+[node name="LblTitulo" type="Label" parent="CanvasLayer/Panel/VBox" unique_id=152904626]
+layout_mode = 2
+text = "UUUUUUUU PERDISTE"
+
+[node name="LblRename" type="Label" parent="CanvasLayer/Panel/VBox" unique_id=832012410]
+layout_mode = 2
+
+[node name="BtnMenu" type="Button" parent="CanvasLayer/Panel/VBox" unique_id=1264832250]
+layout_mode = 2
+text = "VOLVER"

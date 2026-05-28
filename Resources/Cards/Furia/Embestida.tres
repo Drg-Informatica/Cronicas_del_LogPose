@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardDAta" format=3 uid="uid://i52y4lc1lje0"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_sbis8"]
+
+[resource]
+script = ExtResource("1_sbis8")
+nombre = "Embestida"
+descripcion = "25 dano y stun"
+coste_energia = 2
+valor = 25
+tipo_efecto_2 = 8
+valor_2 = 1
+rareza = 1
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

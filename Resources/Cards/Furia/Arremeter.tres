@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardDAta" format=3 uid="uid://bf8lowq3oi4yr"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_ax2n8"]
+
+[resource]
+script = ExtResource("1_ax2n8")
+nombre = "Arremeter"
+descripcion = "8 de dano"
+valor = 8
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

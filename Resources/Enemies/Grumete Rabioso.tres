@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3 uid="uid://owxudgxwmkac"]
+
+[ext_resource type="Texture2D" uid="uid://qa0oremgvlxn" path="res://Assets/Sprites/enemies/6.png" id="1_c72j4"]
+[ext_resource type="Script" uid="uid://c68foq06f6nr8" path="res://Scripts/Data/Enemy_Data.gd" id="1_i3nfr"]
+
+[resource]
+script = ExtResource("1_i3nfr")
+imagen = ExtResource("1_c72j4")
+descripcion_lore = "Grumete hasta los wevos"
+metadata/_custom_type_script = "uid://c68foq06f6nr8"

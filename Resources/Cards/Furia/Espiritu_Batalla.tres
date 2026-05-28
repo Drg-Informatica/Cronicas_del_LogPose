@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dl7xhbxfp2rv"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_ythhn"]
+
+[resource]
+script = ExtResource("1_ythhn")
+nombre = "Espiritu De Batalla"
+descripcion = "+5  fuerza "
+tipo_efecto = 6
+valor = 5
+rareza = 1
+tipo_carta = 2
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

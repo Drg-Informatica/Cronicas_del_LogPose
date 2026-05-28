@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://tlvfitqhkx4t"]
+
+[ext_resource type="Script" uid="uid://cyt35m6gtk85m" path="res://Scripts/UI/reward_scene.gd" id="1_8rxa7"]
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_8rxa7"]
+
+[node name="RewardScene" type="Node2D" unique_id=477951575]
+script = ExtResource("1_8rxa7")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=941548258]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=725556461]
+z_index = -10
+offset_right = 1290.0
+offset_bottom = 729.0
+color = Color(0.5176471, 0.5647059, 0.46666667, 1)
+
+[node name="Panel" type="PanelContainer" parent="CanvasLayer" unique_id=903983847]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxLine_8rxa7")
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/Panel" unique_id=173675468]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+script = ExtResource("1_8rxa7")
+
+[node name="LblTitulo" type="Label" parent="CanvasLayer/Panel/VBox" unique_id=899971348]
+layout_mode = 2
+text = "BIEENNN"
+
+[node name="LblOro" type="Label" parent="CanvasLayer/Panel/VBox" unique_id=1537297827]
+layout_mode = 2
+horizontal_alignment = 1
+
+[node name="LblElige" type="Label" parent="CanvasLayer/Panel/VBox" unique_id=553655152]
+layout_mode = 2
+text = "que prefieres "
+horizontal_alignment = 1
+
+[node name="HBoxCartas" type="HBoxContainer" parent="CanvasLayer/Panel/VBox" unique_id=1914649866]
+custom_minimum_size = Vector2(150, 200)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="BtnSaltar" type="Button" parent="CanvasLayer/Panel/VBox" unique_id=1853982804]
+layout_mode = 2
+text = "SALTAR"

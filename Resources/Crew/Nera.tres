@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CrewMemberData" format=3 uid="uid://dwbfxpx3avks6"]
+
+[ext_resource type="Script" uid="uid://cs0bvfr4vepyc" path="res://Scripts/Data/CrewMember.gd" id="1_is5gf"]
+
+[resource]
+script = ExtResource("1_is5gf")
+nombre = "Nera La Navegante"
+rol = 2
+esencia_aportada = 2
+poder_descripcion = "Cada 2 turnos roba 2 "
+cartas_regalo = Array[String](["[\"res://resources/cards/deriva/flujo_eterno.tres\"]"])
+poder_ciclico_tipo = 2
+poder_ciclico_valor = 2
+poder_ciclico_cada_n_turnos = 2
+poder_ciclico_nombre = "Lectura del log pose"
+metadata/_custom_type_script = "uid://cs0bvfr4vepyc"

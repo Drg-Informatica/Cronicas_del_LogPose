@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bqcmpxv8piues"]
+
+[ext_resource type="Script" uid="uid://d3c4mwbqatirn" path="res://Scripts/UI/noche_cabina_scene.gd" id="1_ud1h5"]
+
+[node name="NocheCabinaScene" type="Node" unique_id=1995952481]
+script = ExtResource("1_ud1h5")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1969347095]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=873893641]
+z_index = -15
+offset_right = 1280.0
+offset_bottom = 720.0
+color = Color(0.4937548, 0.50990546, 0.8168603, 1)
+
+[node name="LblInfo" type="Label" parent="CanvasLayer" unique_id=1199125223]
+offset_left = 181.0
+offset_right = 1065.0
+offset_bottom = 76.0
+
+[node name="ContenedorCartas" type="HBoxContainer" parent="CanvasLayer" unique_id=713674374]
+offset_left = 104.0
+offset_top = 200.0
+offset_right = 1152.0
+offset_bottom = 569.0
+
+[node name="BtnCurar" type="Button" parent="CanvasLayer" unique_id=1510916556]
+offset_left = 795.0
+offset_top = 150.0
+offset_right = 1096.0
+offset_bottom = 200.0
+text = "CURAR"
+
+[node name="BtnSalir" type="Button" parent="CanvasLayer" unique_id=961425893]
+offset_left = 795.0
+offset_top = 603.0
+offset_right = 1126.0
+offset_bottom = 653.0
+text = "Salir
+"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cn7tdtj5od51s"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_rwvgf"]
+
+[resource]
+script = ExtResource("1_rwvgf")
+nombre = "Trinchera"
+descripcion = "+16 Armadura y 4 de danio"
+coste_energia = 2
+esencia = 1
+tipo_efecto = 1
+valor_2 = 4
+tipo_carta = 1
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

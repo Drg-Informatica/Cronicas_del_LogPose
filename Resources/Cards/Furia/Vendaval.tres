@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardDAta" format=3 uid="uid://byv6i2m8tygm5"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_r2o4c"]
+
+[resource]
+script = ExtResource("1_r2o4c")
+nombre = "Vendaval"
+descripcion = "15 de dano 2 Debil"
+valor = 15
+tipo_efecto_2 = 4
+valor_2 = 2
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

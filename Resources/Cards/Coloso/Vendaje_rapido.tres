@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bc6fspbtgc1ew"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_a5vme"]
+
+[resource]
+script = ExtResource("1_a5vme")
+nombre = "Vendaje Rapido"
+descripcion = "+8 de vida"
+tipo_efecto = 3
+valor = 8
+tipo_carta = 1
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cvm5kk6t2flo6"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_8433l"]
+
+[resource]
+script = ExtResource("1_8433l")
+nombre = "Aguante"
+descripcion = "+6 VIDA"
+esencia = 1
+tipo_efecto = 3
+valor = 6
+tipo_carta = 1
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

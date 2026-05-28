@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://kpsy0tnp66rj"]
+
+[ext_resource type="Script" uid="uid://dpfi2bcs0u5bc" path="res://Scripts/UI/enemy_ui.gd" id="1_xciw1"]
+
+[node name="EnemyUi" type="Node2D" unique_id=1531266245]
+script = ExtResource("1_xciw1")
+
+[node name="Sprite" type="Sprite2D" parent="." unique_id=1964182486]
+scale = Vector2(2.5689657, 3.3793106)
+
+[node name="BarraVida" type="ProgressBar" parent="." unique_id=222770688]
+offset_left = 21.0
+offset_top = -33.0
+offset_right = 112.0
+offset_bottom = -6.0
+
+[node name="LblVida" type="Label" parent="." unique_id=1570219538]
+offset_left = 3.0
+offset_top = 2.0
+offset_right = 37.0
+offset_bottom = 25.0
+
+[node name="LblBloqueo" type="Label" parent="." unique_id=1552479195]
+offset_left = 1.0
+offset_top = 45.0
+offset_right = 41.0
+offset_bottom = 68.0
+
+[node name="LblIntencion" type="Label" parent="." unique_id=471661357]
+offset_left = 109.0
+offset_top = -2.0
+offset_right = 152.0
+offset_bottom = 29.0
+
+[node name="IconoIntencion" type="TextureRect" parent="." unique_id=1749591053]
+offset_left = 72.0
+offset_top = -1.0
+offset_right = 101.0
+offset_bottom = 28.0
+
+[node name="BotonSeleccion" type="Button" parent="." unique_id=565907786]
+self_modulate = Color(0, 0, 0, 0.39215687)
+top_level = true
+anchors_preset = -1
+offset_left = 1062.0
+offset_top = 54.0
+offset_right = 1272.6666
+offset_bottom = 145.33334
+grow_horizontal = 0
+scale = Vector2(0.75, 0.75)
+mouse_default_cursor_shape = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)

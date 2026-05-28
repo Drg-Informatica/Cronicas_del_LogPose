@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CrewMemberData" format=3 uid="uid://dxuh5ysrcy8rl"]
+
+[ext_resource type="Script" uid="uid://cs0bvfr4vepyc" path="res://Scripts/Data/CrewMember.gd" id="1_4s4ev"]
+
+[resource]
+script = ExtResource("1_4s4ev")
+nombre = "Aldric El Medico De Acero"
+rol = 1
+esencia_aportada = 1
+poder_descripcion = "+5 de vida cada 2 turnos"
+cartas_regalo = Array[String](["[\"res://resources/cards/coloso/aguante.tres\", ", "\"res://resources/cards/coloso/vendaje_rapido.tres\"]"])
+poder_ciclico_tipo = 3
+poder_ciclico_valor = 5
+poder_ciclico_cada_n_turnos = 2
+poder_ciclico_nombre = "Diagnóstico de combate"
+metadata/_custom_type_script = "uid://cs0bvfr4vepyc"

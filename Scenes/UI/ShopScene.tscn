@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://ibdddg2lnw6t"]
+
+[ext_resource type="Script" uid="uid://c2bh6ka74eoww" path="res://Scripts/UI/shop_scene.gd" id="1_1lkmh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1lkmh"]
+bg_color = Color(0.59607846, 0, 1, 1)
+
+[node name="ShopScene" type="Node" unique_id=60259022]
+script = ExtResource("1_1lkmh")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=801728857]
+z_index = -10
+offset_right = 1276.0
+offset_bottom = 715.0
+color = Color(0.9372549, 0.99215686, 0.33333334, 1)
+
+[node name="LblOro" type="Label" parent="." unique_id=290858631]
+offset_left = 1067.0
+offset_top = 5.0
+offset_right = 1226.0
+offset_bottom = 44.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+
+[node name="ContenedorCompra" type="HBoxContainer" parent="." unique_id=774366107]
+offset_left = 5.0
+offset_top = 23.0
+offset_right = 682.0
+offset_bottom = 326.0
+
+[node name="ContenedorReliquias" type="VBoxContainer" parent="." unique_id=57080258]
+anchors_preset = -1
+offset_left = 656.0
+offset_top = 281.0
+offset_right = 1223.0
+offset_bottom = 510.0
+
+[node name="ContenedorEliminar" type="HBoxContainer" parent="." unique_id=84665155]
+offset_left = 5.0
+offset_top = 394.0
+offset_right = 578.0
+offset_bottom = 712.0
+
+[node name="BtnSalir" type="Button" parent="." unique_id=906417092]
+offset_left = 816.0
+offset_top = 627.0
+offset_right = 1177.0
+offset_bottom = 703.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_1lkmh")
+text = "SALIR"

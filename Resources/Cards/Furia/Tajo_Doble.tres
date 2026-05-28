@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardDAta" format=3 uid="uid://i6hvetirv1fy"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_235h7"]
+
+[resource]
+script = ExtResource("1_235h7")
+nombre = "Tajo Doble"
+descripcion = "2 veces 9 de dano"
+valor = 9
+ostias = 2
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

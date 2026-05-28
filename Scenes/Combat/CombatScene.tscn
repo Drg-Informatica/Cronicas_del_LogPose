@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://dlvitrex8tufu"]
+
+[ext_resource type="Script" uid="uid://dtfectkoadbdl" path="res://Scripts/Managers/CombatManager.gd" id="1_vhmsl"]
+[ext_resource type="Script" uid="uid://cjkr3tqrwv2yc" path="res://Scripts/UI/HandDisplay.gd" id="2_8dwbb"]
+[ext_resource type="Texture2D" uid="uid://16x8r8g0cd66" path="res://Assets/Sprites/backgrounds/far.png" id="2_t6ams"]
+[ext_resource type="Texture2D" uid="uid://dfdvspj4k67mp" path="res://Assets/Sprites/backgrounds/{isle_banner5c.bmp" id="3_oin0j"]
+
+[node name="CombatScene" type="Node2D" unique_id=1369927126]
+script = ExtResource("1_vhmsl")
+
+[node name="Background" type="TextureRect" parent="." unique_id=729380523]
+z_index = -10
+offset_right = 1281.0
+offset_bottom = 728.0
+texture = ExtResource("2_t6ams")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1879068797]
+
+[node name="BtnFindeTurno" type="Button" parent="CanvasLayer" unique_id=117596491]
+offset_left = 891.0
+offset_right = 1276.0
+offset_bottom = 37.0
+text = "END TURN"
+
+[node name="ContenedorMano" type="HBoxContainer" parent="CanvasLayer" unique_id=792191932]
+anchors_preset = -1
+anchor_top = 0.656
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = 4.6799927
+offset_right = 2.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("2_8dwbb")
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer" unique_id=235351343]
+offset_right = 221.0
+offset_bottom = 344.0
+mouse_filter = 2
+
+[node name="Fondo" type="NinePatchRect" parent="CanvasLayer/MarginContainer" unique_id=615351215]
+layout_direction = 2
+layout_mode = 2
+texture = ExtResource("3_oin0j")
+region_rect = Rect2(6.4000244, -6, 115.20001, 125.59999)
+
+[node name="HUDCombate" type="VBoxContainer" parent="CanvasLayer/MarginContainer" unique_id=247338909]
+layout_mode = 2
+mouse_filter = 2
+alignment = 1
+
+[node name="LblVidaJugador" type="Label" parent="CanvasLayer/MarginContainer/HUDCombate" unique_id=221364279]
+layout_mode = 2
+text = "❤ 80   🛡 0"
+
+[node name="LblEnergia" type="Label" parent="CanvasLayer/MarginContainer/HUDCombate" unique_id=1427032111]
+layout_mode = 2
+text = "3/3"
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/MarginContainer/HUDCombate" unique_id=710699862]
+layout_mode = 2
+expand_mode = 5
+stretch_mode = 5
+
+[node name="LblMarea" type="Label" parent="CanvasLayer/MarginContainer/HUDCombate" unique_id=1469009227]
+layout_mode = 2
+text = "⚓ Marea: Calma"
+
+[node name="LblMazo" type="Label" parent="CanvasLayer/MarginContainer/HUDCombate" unique_id=176685510]
+layout_mode = 2
+text = "MAZO:10"
+
+[node name="ZonaJuego" type="Control" parent="CanvasLayer" unique_id=2117631930]
+custom_minimum_size = Vector2(800, 400)
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -635.0
+offset_top = -334.0
+offset_right = 253.0
+offset_bottom = 182.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CombatManager" type="Node" parent="." unique_id=52960797]
+
+[node name="PosicionEnemigo" type="Node2D" parent="." unique_id=321033500]
+z_index = 1
+position = Vector2(1038, 199)

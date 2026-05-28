@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bx1ya7d4u1kb2"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_v0vnq"]
+
+[resource]
+script = ExtResource("1_v0vnq")
+nombre = "Coraza Del Mar"
+descripcion = "+3 Armadura por turno"
+esencia = 1
+tipo_efecto = 1
+valor = 3
+rareza = 1
+tipo_carta = 2
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

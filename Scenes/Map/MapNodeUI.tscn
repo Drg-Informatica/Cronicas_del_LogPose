@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cbh0hqn4m1g1b"]
+
+[ext_resource type="Script" uid="uid://bngxjae7kpgo1" path="res://Scripts/UI/map_node_ui.gd" id="1_qc228"]
+
+[node name="MapNodeUi" type="Node2D" unique_id=1999129159]
+script = ExtResource("1_qc228")
+
+[node name="Icon" type="TextureRect" parent="." unique_id=1488512820]
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="Boton" type="Button" parent="." unique_id=1618940813]
+custom_minimum_size = Vector2(64, 64)
+offset_left = -9.0
+offset_top = -10.0
+offset_right = 55.0
+offset_bottom = 54.0

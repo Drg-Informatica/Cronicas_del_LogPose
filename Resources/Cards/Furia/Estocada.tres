@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardDAta" format=3 uid="uid://cksn3isfco6g8"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_7i1bi"]
+
+[resource]
+script = ExtResource("1_7i1bi")
+nombre = "Estocada"
+descripcion = "12 de dano"
+valor = 12
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

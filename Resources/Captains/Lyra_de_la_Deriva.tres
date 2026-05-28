@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CptnData" format=3 uid="uid://bkmjjgb430jt5"]
+
+[ext_resource type="Texture2D" uid="uid://bt8e1062p0mfy" path="res://Assets/Sprites/captains/Petra.tres" id="1_a48lx"]
+[ext_resource type="Script" uid="uid://bns5r47vjas4n" path="res://Scripts/Data/CptnData.gd" id="1_rwyn1"]
+
+[resource]
+script = ExtResource("1_rwyn1")
+nombre = "Lyra de la Deriva"
+poder_nombre = "Flujo de Marea"
+full_art = ExtResource("1_a48lx")
+poder_descripcion = "+1 de energia al Robar 2 o mas cartas de Ataque"
+metadata/_custom_type_script = "uid://bns5r47vjas4n"

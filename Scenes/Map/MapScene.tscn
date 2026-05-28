@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://d0ckb4rjegk66"]
+
+[ext_resource type="Script" uid="uid://dn533xruoxgrv" path="res://Scripts/Managers/map_scene.gd" id="1_gq33q"]
+[ext_resource type="Texture2D" uid="uid://ii0gppehs1s" path="res://Assets/Sprites/backgrounds/East.tres" id="2_v6fv8"]
+
+[node name="MapScene" type="Node2D" unique_id=1620236808]
+script = ExtResource("1_gq33q")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=139215671]
+z_index = -15
+position = Vector2(111.42744, -124.93039)
+rotation = 1.5742869
+scale = Vector2(1.5430768, 5.497012)
+texture = ExtResource("2_v6fv8")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=234831242]
+
+[node name="ContenedorNodos" type="Node2D" parent="." unique_id=18678846]
+position = Vector2(-13, 8)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=84428117]
+
+[node name="LblVida" type="Label" parent="CanvasLayer" unique_id=177515848]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="LblOro" type="Label" parent="CanvasLayer" unique_id=1925035441]
+offset_left = 600.0
+offset_top = 1.0
+offset_right = 639.0
+offset_bottom = 24.0

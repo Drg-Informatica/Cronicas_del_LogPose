@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://dlvitrex8tufu"]
+
+[ext_resource type="Script" uid="uid://dtfectkoadbdl" path="res://Scripts/Managers/CombatManger.gd" id="1_vhmsl"]
+[ext_resource type="Script" uid="uid://cjkr3tqrwv2yc" path="res://Scripts/UI/HandDisplay.gd" id="2_8dwbb"]
+
+[node name="CombatScene" type="Node2D" unique_id=1369927126]
+script = ExtResource("1_vhmsl")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1879068797]
+
+[node name="ContenedorMano" type="HBoxContainer" parent="CanvasLayer" unique_id=792191932]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -239.0
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("2_8dwbb")
+
+[node name="HUDCombate" type="VBoxContainer" parent="CanvasLayer" unique_id=247338909]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="LblVidaJugador" type="Label" parent="CanvasLayer/HUDCombate" unique_id=221364279]
+layout_mode = 2
+text = "❤ 80   🛡 0"
+
+[node name="LblEnergia" type="Label" parent="CanvasLayer/HUDCombate" unique_id=1427032111]
+layout_mode = 2
+text = "3/3"
+
+[node name="LblMarea" type="Label" parent="CanvasLayer/HUDCombate" unique_id=1469009227]
+layout_mode = 2
+text = "⚓ Marea: Calma"
+
+[node name="LblMazo" type="Label" parent="CanvasLayer/HUDCombate" unique_id=176685510]
+layout_mode = 2
+text = "MAZO:10"
+
+[node name="BtnFindeTurno" type="Button" parent="CanvasLayer/HUDCombate" unique_id=117596491]
+layout_mode = 2
+text = "END TURN"
+
+[node name="ZonaJuego" type="Control" parent="CanvasLayer" unique_id=2117631930]
+custom_minimum_size = Vector2(900, 400)
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -579.0
+offset_top = -256.0
+offset_right = 589.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PosicionEnemigo" type="Node2D" parent="." unique_id=321033500]
+position = Vector2(821, 340)
+
+[node name="CombatManager" type="Node" parent="." unique_id=52960797]

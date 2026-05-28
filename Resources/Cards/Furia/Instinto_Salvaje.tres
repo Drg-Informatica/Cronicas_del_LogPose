@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardDAta" format=3 uid="uid://bq7kd3qqo4ctu"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_1gdqv"]
+
+[resource]
+script = ExtResource("1_1gdqv")
+nombre = "Instinto Salvaje"
+tipo_efecto = 2
+valor = 2
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://bskqsktts12md"]
+
+[ext_resource type="Script" uid="uid://w4o654bmkq42" path="res://Scripts/UI/event_scene.gd" id="1_oswb0"]
+
+[node name="EventScene" type="Node" unique_id=1415130866]
+script = ExtResource("1_oswb0")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1810969016]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=773135577]
+offset_right = 1282.0
+offset_bottom = 721.0
+color = Color(0.9372549, 0.99215686, 0.52156866, 1)
+
+[node name="LblTitulo" type="Label" parent="CanvasLayer" unique_id=1641975242]
+offset_left = 86.0
+offset_top = 84.0
+offset_right = 415.0
+offset_bottom = 198.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+
+[node name="LblDescripcion" type="Label" parent="CanvasLayer" unique_id=2000667797]
+offset_left = 506.0
+offset_top = 50.0
+offset_right = 1110.0
+offset_bottom = 321.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+
+[node name="LblResultado" type="Label" parent="CanvasLayer" unique_id=1072983815]
+offset_left = 70.0
+offset_top = 520.0
+offset_right = 483.0
+offset_bottom = 679.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+
+[node name="BtnContinuar" type="Button" parent="CanvasLayer" unique_id=1205685315]
+anchors_preset = -1
+anchor_right = 0.016
+anchor_bottom = 0.046000004
+offset_left = 782.0
+offset_top = 623.0
+offset_right = 1247.52
+offset_bottom = 679.88
+text = "continuar
+"
+
+[node name="ContenedorOpciones" type="VBoxContainer" parent="CanvasLayer" unique_id=1026194107]
+offset_left = 434.0
+offset_top = 306.0
+offset_right = 1146.0
+offset_bottom = 571.0

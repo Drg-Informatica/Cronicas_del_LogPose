@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardDAta" format=3 uid="uid://c4mvhjcupuj5a"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_132k4"]
+
+[resource]
+script = ExtResource("1_132k4")
+nombre = "Furia Salvaje"
+descripcion = "5 x 5 dano"
+coste_energia = 2
+valor = 5
+rareza = 1
+ostias = 5
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

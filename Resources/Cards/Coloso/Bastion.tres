@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bal4fg1xbko42"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_qq4ea"]
+
+[resource]
+script = ExtResource("1_qq4ea")
+nombre = "Bastion"
+descripcion = "+25 armadura y 10 de danio"
+coste_energia = 2
+esencia = 1
+tipo_efecto = 1
+valor = 25
+valor_2 = 10
+rareza = 1
+tipo_carta = 1
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

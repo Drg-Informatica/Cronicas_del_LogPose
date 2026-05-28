@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://chw5v2e0l2ku4"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_nxuqp"]
+
+[resource]
+script = ExtResource("1_nxuqp")
+nombre = "ContraGolpe"
+descripcion = ""
+esencia = 1
+valor = 10
+tipo_efecto_2 = 1
+valor_2 = 5
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

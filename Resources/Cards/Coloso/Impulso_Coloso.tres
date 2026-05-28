@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bf2xunnaw72ea"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_b6rfk"]
+
+[resource]
+script = ExtResource("1_b6rfk")
+nombre = "Impulso Coloso"
+descripcion = "+30 de danio y +10 de Vida"
+coste_energia = 3
+esencia = 1
+valor = 30
+tipo_efecto_2 = 3
+valor_2 = 10
+rareza = 2
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

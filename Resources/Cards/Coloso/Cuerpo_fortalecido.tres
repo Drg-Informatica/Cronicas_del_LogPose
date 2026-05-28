@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bwxrvydkgw7v6"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_e8lyk"]
+
+[resource]
+script = ExtResource("1_e8lyk")
+nombre = "Cuerpo Fortalecizo"
+descripcion = "+2 Fuerza"
+esencia = 1
+tipo_efecto = 6
+valor = 2
+tipo_carta = 1
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"

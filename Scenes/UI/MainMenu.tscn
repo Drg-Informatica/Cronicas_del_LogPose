@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://b60pmosfevqm2"]
+
+[ext_resource type="Script" uid="uid://d00dfkpgqp8h0" path="res://Scripts/UI/main_menu.gd" id="1_g18y6"]
+[ext_resource type="Texture2D" uid="uid://ckjnbv3bf8iod" path="res://Assets/Sprites/backgrounds/TITULO.tres" id="2_72sra"]
+[ext_resource type="Texture2D" uid="uid://dd1eygwcx6eap" path="res://Assets/Sprites/backgrounds/Main.png" id="2_mjmdf"]
+
+[node name="MainMenu" type="Node" unique_id=692709321]
+script = ExtResource("1_g18y6")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1351648789]
+
+[node name="Titulo" type="TextureRect" parent="CanvasLayer" unique_id=85275794]
+z_index = 2
+offset_left = 347.0
+offset_top = 111.0
+offset_right = 976.0
+offset_bottom = 267.0
+texture = ExtResource("2_72sra")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="CanvasLayer" unique_id=703268356]
+offset_left = -8.0
+offset_top = -9.0
+offset_right = 1282.0
+offset_bottom = 716.0
+texture = ExtResource("2_mjmdf")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=1189554253]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.0
+offset_top = -2.0
+offset_right = -2.0
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="LblTitulo" type="Label" parent="CanvasLayer/VBoxContainer" unique_id=730966679]
+layout_mode = 2
+
+[node name="BtnNuevaPartida" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=2043333620]
+layout_mode = 2
+text = "NUEVA"
+
+[node name="BtnContinuar" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=961304837]
+layout_mode = 2
+text = "CONTINUA"
+
+[node name="BtnSalir" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=126073231]
+layout_mode = 2
+text = "SALIR"

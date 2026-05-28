@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://w33e23djfxwl"]
+
+[ext_resource type="Script" uid="uid://kqbnr161edn4" path="res://Scripts/UI/captain_selection_scene.gd" id="1_6hro2"]
+[ext_resource type="Texture2D" uid="uid://2q646b67hs3c" path="res://Assets/Sprites/backgrounds/main 2.png" id="2_kf3a5"]
+
+[node name="CaptainSelectionScene" type="Node2D" unique_id=812246387]
+script = ExtResource("1_6hro2")
+
+[node name="AccentBackground" type="ColorRect" parent="." unique_id=1171306401]
+offset_left = 262.0
+offset_top = 674.0
+offset_right = 1001.0
+offset_bottom = 715.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2064675909]
+
+[node name="NinePatchRect" type="NinePatchRect" parent="CanvasLayer" unique_id=673970818]
+offset_right = 1281.0
+offset_bottom = 669.0
+texture = ExtResource("2_kf3a5")
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer" unique_id=1158896382]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -456.0
+offset_top = -146.0
+offset_right = 465.0
+offset_bottom = 27.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/MarginContainer" unique_id=842222777]
+layout_mode = 2
+
+[node name="LblTitulo" type="Label" parent="CanvasLayer/MarginContainer/VBox" unique_id=254624778]
+layout_mode = 2
+
+[node name="HBoxCapitanes" type="HBoxContainer" parent="CanvasLayer/MarginContainer/VBox" unique_id=1442747839]
+layout_mode = 2
+
+[node name="FullArtContainer" type="CenterContainer" parent="CanvasLayer/MarginContainer/VBox" unique_id=694129564]
+layout_mode = 2
+
+[node name="FullArt" type="TextureRect" parent="CanvasLayer/MarginContainer/VBox/FullArtContainer" unique_id=691305011]
+layout_mode = 2
+
+[node name="InfoPanel" type="PanelContainer" parent="CanvasLayer/MarginContainer/VBox" unique_id=330926286]
+layout_mode = 2
+
+[node name="NameLabel" type="Label" parent="CanvasLayer/MarginContainer/VBox/InfoPanel" unique_id=67210553]
+layout_mode = 2

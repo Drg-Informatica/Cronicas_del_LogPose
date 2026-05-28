@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ii0gppehs1s"]
+
+[ext_resource type="Texture2D" uid="uid://dyycl7u70ihg7" path="res://Assets/Sprites/backgrounds/Mapas NoLETTERS.png" id="1_7rcvm"]
+
+[resource]
+atlas = ExtResource("1_7rcvm")
+region = Rect2(801, -2, 776, 328)

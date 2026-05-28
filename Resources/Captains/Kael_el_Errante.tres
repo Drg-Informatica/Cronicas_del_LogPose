@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CptnData" format=3 uid="uid://jbua1ahc7j6s"]
+
+[ext_resource type="Script" uid="uid://bns5r47vjas4n" path="res://Scripts/Data/CptnData.gd" id="1_a0ifv"]
+[ext_resource type="Texture2D" uid="uid://dbs33s5tioo4k" path="res://Assets/Sprites/captains/CapitanRetratos.tres" id="1_qqpqi"]
+
+[resource]
+script = ExtResource("1_a0ifv")
+nombre = "Kael El Errante"
+poder_nombre = "Impacto"
+full_art = ExtResource("1_qqpqi")
+poder_descripcion = "30% de aturdir al atacar"
+metadata/_custom_type_script = "uid://bns5r47vjas4n"

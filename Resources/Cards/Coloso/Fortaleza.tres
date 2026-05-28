@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://e67a1tv2yawn"]
+
+[ext_resource type="Script" uid="uid://ce3n2uk2hhglb" path="res://Scripts/Data/Card_data.gd" id="1_mdgmd"]
+
+[resource]
+script = ExtResource("1_mdgmd")
+nombre = "Fortaleza"
+descripcion = "+20 Bloqueo y 5 de danio"
+coste_energia = 2
+esencia = 1
+tipo_efecto = 1
+valor = 20
+valor_2 = 5
+tipo_carta = 1
+metadata/_custom_type_script = "uid://ce3n2uk2hhglb"
